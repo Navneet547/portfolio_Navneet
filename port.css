@@ -1,0 +1,284 @@
+.navbar{
+	height: 100px;
+	background-color: gray;
+}
+.navbar h1{
+	color: blue;
+	margin: 0px;
+	padding-top: 10px;
+	font-size: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: right;
+   padding-top:0px;
+  padding-right:40px; 
+  font-size: 20px;	
+}
+
+.navbar li a {
+  display: block;
+
+  color: white;
+  /*background-color: #dddddd;*/
+}
+
+.container1{
+	height: 550px;
+	/*background-color: skyblue;*/
+	background-image: url("bgvideo.mp4");
+	background-size: 500px 500px;
+	background-repeat: no-repeat;
+}
+
+.profile{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: center;*/
+	}
+
+.navneet{
+	height:150px;
+	/*width: 30%;*/
+	/*background-color: red;*/
+	margin:10px auto;
+}
+.nav-p1{
+	padding-top: 50px;
+	font-size: 40px;
+}
+
+.nav-p ,span{
+	font-size: 80px;
+}
+.nav-p2{
+
+	/*padding-left: 20px;*/
+	font-size: 20px;
+}
+.profile-image{
+	height:500px;
+	width: 35%;
+	background-image: url("myimg.jpg");
+	background-repeat:no-repeat;
+	background-size:500px 550px;
+	border-radius: 25px;
+	margin:20px auto;
+	overflow: hidden;
+}
+.container2{
+	height: 400px;
+	background-color: skyblue;
+}
+.aboutme{
+	text-align: center;
+	background-color: skyblue;
+	margin: 0px;
+	font-size: 30px;
+	padding: 10px;
+}
+.profile-img2{
+	height:250px;
+	width: 20%;
+	/*background-color: red;*/
+	background-image: url("home.jpg");
+	background-repeat:no-repeat;
+	background-size:300px 250px;
+	border-radius: 5%;
+	margin:20px auto;
+}
+
+.about{
+	height:150px;
+	width: 30%;
+	/*background-color: red;*/
+	margin:20px auto;
+}
+
+
+/*this is my skill section*/
+
+.container3{
+	
+	height: 500px;
+	background-color: skyblue;
+}
+.container3 h1{
+	text-align: center;
+	margin:0px;
+	padding:10px;
+	background-color: skyblue;
+	font-size: 30px;
+}
+.container3-box1{
+	display: flex;
+	justify-content: center;
+}
+.container3-box2{
+	display: flex;
+	justify-content: center;
+}
+.html{
+	background-image: url("html.png");
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 19%;
+	margin: 10px auto;
+	background-size: 263px 216px;
+	border-radius: 5%;
+
+
+}
+.python{
+	background-image: url("python.jpg");
+	background-repeat: no-repeat;
+	/*background-color: black;*/
+	height: 200px;
+	width: 19%;
+	margin: 10px auto;
+	background-size: 263px 200px;
+	border-radius: 5%;
+}
+.django{
+	background-image: url("Django.jpeg");
+	background-repeat: no-repeat;
+	/*background-color: black;*/
+	height: 200px;
+	width: 19%;
+	margin: 10px auto;
+	background-size: 263px 216px;
+	border-radius: 5%;
+
+}
+.ai{
+	background-image: url("ai.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 19%;
+	margin: 10px auto;
+	background-size: 263px 216px;
+	border-radius: 5%;
+
+}
+.java{
+	background-image: url("java.png");
+	background-repeat: no-repeat;
+	/*background-color: black;*/
+	height: 200px;
+	width: 19%;
+	margin: 10px auto;
+	background-size: 263px 216px;
+	border-radius: 5%;
+
+}
+.ms{
+	background-image: url("msoffice.png");
+	background-repeat: no-repeat;
+	/*background-color: black;*/
+	height: 200px;
+	width: 19%;
+	margin: 10px auto;
+	background-size: 263px 216px;
+	border-radius: 5%;
+
+
+}
+#projecthover{
+	/*transform: scale(1.5);*/
+	/*transition: width 2s height 2s;*/
+}
+/*#projecthover:hover{
+	width: 250px;
+	transition: width 2s height 2s;
+}*/
+
+/*this is projects section*/
+.container4{
+	height: auto;
+	background-color: skyblue;
+}
+.container4 h1{
+	text-align: center;
+	margin:0px;
+	padding:10px;
+	background-color: skyblue;
+}
+h1 u{
+	font-size: 35px;
+	padding-top: 20px;
+}
+.project-part{
+	display: flex;
+	justify-content: center;
+}
+.project{
+	height: 250px;
+	width: 35%;
+	margin: 20px auto;
+	/*background-color: black;*/
+	
+}
+.img-log1{
+	height: 220px;
+	/*width: 35%;*/
+	background-image: url("registration1.png");
+	background-repeat: no-repeat;
+	/*background-size: 500px 220px;*/
+	border-radius: 10px;
+	background-size: cover;
+}
+.img-log2{
+	height: 220px;
+	/*width: 35%;*/
+	background-image: url("logindjango.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 225px;
+	border-radius: 10px;
+}
+.img-log3{
+	height: 220px;
+	/*width: 35%;*/
+	/*transition: transform 2s;*/
+	background-image: url("realstate.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 400px;
+	border-radius: 10px;
+}
+.img-log4{
+	height: 220px;
+	/*width: 35%;*/
+	background-image: url("chatbot.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 225px;
+	border-radius: 10px;
+}
+.img-log5{
+	height: 220px;
+	/*width: 35%;*/
+	background-image: url("opencv.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 225px;
+	border-radius: 10px;
+}
+.img-log6{
+	height: 220px;
+	/*width: 35%;*/
+	background-image: url("hospital.png");
+	background-repeat: no-repeat;
+	background-size: 470px 225px;
+	border-radius: 10px;
+}
+
+/*@media screen and (min-width: 480px){
+	.container3-box1{
+		flex-direction: column;
+	}
+}*/
