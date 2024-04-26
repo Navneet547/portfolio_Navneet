@@ -33,7 +33,7 @@ ul {
 
 .container1{
 	height: 550px;
-	/*background-color: skyblue;*/
+	background-color: skyblue;
 	background-image: url("bgvideo.mp4");
 	background-size: 500px 500px;
 	background-repeat: no-repeat;
